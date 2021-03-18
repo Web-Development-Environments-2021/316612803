@@ -21,7 +21,6 @@
 #menu li a:hover {
 	background-color: #111;
 }
-
 .section h1 {
 	position: relative;
     bottom: -17px;
@@ -34,4 +33,8 @@
 }
 .section .border {
     border-bottom: 3px solid #000;
+}
+
+.section #container{
+	text-align: center
 }

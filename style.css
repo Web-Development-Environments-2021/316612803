@@ -39,7 +39,7 @@
 	text-align: center
 }
 
-/* Style inputs, select elements and textareas */
+/*Style inputs, select elements and textareas */
 input[type=text], select, textarea{
 	width: 100%;
 	padding: 12px;
@@ -64,6 +64,9 @@ input[type=text], select, textarea{
 	border-radius: 4px;
 	cursor: pointer;
 	float: right;
+	position: absolute;
+	left: 48%;
+	margin: 10px;
   }
   
   /* Floating column for labels: 25% width */
@@ -73,10 +76,10 @@ input[type=text], select, textarea{
 	margin-top: 6px;
   }
   
-  /* Floating column for inputs: 75% width */
+  /* Floating column for inputs: 50% width */
   .col-75 {
 	float: left;
-	width: 75%;
+	width: 50%;
 	margin-top: 6px;
 	right: 500px;
   }
@@ -91,7 +94,7 @@ input[type=text], select, textarea{
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
 	.col-25, .col-75, input[type=submit] {
-	  width: 100%;
+	  width: 50%;
 	  margin-top: 0;
 	}
   }

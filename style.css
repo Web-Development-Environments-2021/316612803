@@ -31,6 +31,13 @@
 	left: 10%;
     display: inline-block;
 }
+
+.section p {
+	position: relative;
+    display: inline-block;
+	font-size:x-large;
+}
+
 .section .border {
     border-bottom: 3px solid #000;
 }
